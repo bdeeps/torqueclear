@@ -1,0 +1,173 @@
+{
+  "slug": "torqueclear",
+  "kind": "principle",
+  "box": 24,
+  "date": "2026-09-27",
+  "title": "Torque",
+  "question": "What is torque?",
+  "principle": {
+    "type": "concept",
+    "name": "Torque",
+    "formula": "τ = F × r",
+    "formulaNote": "torque = force × distance from the pivot. Only the part of the force at right angles counts, so τ = F r sin θ. Measured in newton-metres (N·m), never joules",
+    "idea": "Torque is the turning effect of a force: how hard you push times how far from the pivot you push. The same push twists twice as hard twice as far out, which is why spanners are long and door handles sit far from the hinges.",
+    "discovered": "c. 250 BCE · Archimedes' law of the lever; the word 'torque' from James Thomson, 1884",
+    "art": "wrench",
+    "appliesTo": [
+      "carclear",
+      "cycleclear",
+      "motorcycleclear",
+      "mixerclear",
+      "fanclear",
+      "skeletonclear"
+    ],
+    "examples": [
+      {
+        "title": "Engine torque and power",
+        "text": "A 1.2 litre petrol engine makes about 113 N·m near 4,400 rpm. Power is torque × spin speed, P = τω, so it peaks at about 66 kW near 6,000 rpm, where the torque has already started to fall.",
+        "box": "carclear"
+      },
+      {
+        "title": "First gear",
+        "text": "A gearbox trades speed for torque. In first gear a small car's wheels get about 13 times the engine's torque, over 1,400 N·m, enough to pull away up a steep ramp, but the car tops out at about 33 km/h.",
+        "box": "carclear"
+      },
+      {
+        "title": "Pedal and crank",
+        "text": "Stand with 600 N on a 17 cm crank when it is level and you apply about 100 N·m. At the top and bottom of the stroke the crank points along your push and the torque drops to zero, so your legs take turns.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "A low gear for hills",
+        "text": "The chain pulls equally on both sprockets, so the wheel's torque is the crank's torque × rear teeth ÷ front teeth. A 34-tooth cog with a 34-tooth ring gives about 2.4 times the push of a 14-tooth cog.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "A 150 cc single",
+        "text": "A commuter motorcycle's engine makes only about 13 N·m, a tenth of a small car's. The gearbox and chain multiply it many times before it reaches the back tyre.",
+        "box": "motorcycleclear"
+      },
+      {
+        "title": "Small torque, big speed",
+        "text": "A mixer grinder's motor gives only about 0.36 N·m on a full jar, but at 12,800 rpm that is nearly 500 W of power at the blades.",
+        "box": "mixerclear"
+      },
+      {
+        "title": "The ceiling fan's motor",
+        "text": "A ceiling fan's induction motor turns its blades with about 1 N·m at 350 rpm, roughly 40 W of work on the air.",
+        "box": "fanclear"
+      },
+      {
+        "title": "Your forearm",
+        "text": "The biceps pulls about 4.5 cm from the elbow while a load sits 35 cm out in your hand. To balance the moments it must pull about eight to nine times the load's weight.",
+        "box": "skeletonclear"
+      },
+      {
+        "title": "A pipe on the wheel brace",
+        "text": "A rusted wheel nut might need 180 N·m. Pushing 350 N on a 35 cm brace gives only 122 N·m; slide a 20 cm pipe over the handle and the same push gives about 190 N·m."
+      },
+      {
+        "title": "A seesaw",
+        "text": "A 40 kg child 1.5 m from the pivot balances a 30 kg child 2 m out: 40 × 1.5 = 30 × 2. This is Archimedes' law of the lever."
+      }
+    ]
+  },
+  "hook": "Torque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.",
+  "thumbText": "TORQUE",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "torque",
+    "moment of a force",
+    "newton-metre",
+    "lever",
+    "principle of moments",
+    "centre of gravity",
+    "toppling",
+    "gears",
+    "crank",
+    "power",
+    "P = τω",
+    "torque wrench",
+    "moment of inertia",
+    "gyroscope",
+    "precession",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Force times distance",
+      "text": "Torque is the turning effect of a force: τ = F × r, in newton-metres. Only the part of the push at right angles counts, τ = F r sin θ. A stuck nut turns only when your torque beats its breakaway torque, and a door swings fastest when you push at the handle."
+    },
+    {
+      "title": "Balance",
+      "text": "An object stays still when the clockwise and anticlockwise moments match: m₁d₁ = m₂d₂ on a seesaw. It stands while the line down from its centre of gravity falls inside its base, which is why double-decker buses are tilted to 28° in a test. A tightrope walker's pole slows the fall."
+    },
+    {
+      "title": "Machines that turn",
+      "text": "A 17 cm bicycle crank turns your push into torque, and the gears change it at the wheel. On a test brake, a 1.2 litre engine makes about 113 N·m, a mixer under 1 N·m. Power is torque × spin speed, P = τω, so the fast little mixer still makes hundreds of watts."
+    },
+    {
+      "title": "Torque in your hands",
+      "text": "When a job needs a set torque, a bigger radius means less force: steering wheels, fat screwdriver handles, nutcrackers and a pipe on a wheel brace. A torque wrench clicks at the right torque. Your biceps works the other way, pulling about nine times the load."
+    },
+    {
+      "title": "Spin, wobble and myths",
+      "text": "Unbalanced torque spins things up, τ = Iα. A gyroscope's torque swings its spin round instead of tipping it. Torque and work share N·m but differ: a stuck nut gets no joules. A longer spanner gives more torque, not more force, and speed comes from power, not torque."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Torque",
+      "def": "The turning effect of a force: force × distance from the pivot, at right angles."
+    },
+    {
+      "term": "Newton-metre (N·m)",
+      "def": "The unit of torque: 1 newton pushing at right angles 1 metre from the pivot."
+    },
+    {
+      "term": "Lever arm",
+      "def": "The shortest distance from the pivot to the line of a force, r sin θ."
+    },
+    {
+      "term": "Principle of moments",
+      "def": "For balance, the clockwise moments about a pivot equal the anticlockwise moments."
+    },
+    {
+      "term": "Centre of gravity",
+      "def": "The point where an object's whole weight seems to act. It must stay above the base for the object to stand."
+    },
+    {
+      "term": "Gear ratio",
+      "def": "Teeth on the driven gear ÷ teeth on the driving gear: it multiplies torque and divides speed."
+    },
+    {
+      "term": "Power = τω",
+      "def": "For anything that turns, power is torque × angular speed in radians per second."
+    },
+    {
+      "term": "Precession",
+      "def": "The slow swing of a spinning object's axis when a torque acts at right angles to its spin."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "torqueclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

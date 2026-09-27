@@ -1,0 +1,126 @@
+{
+  "slug": "torqueclear",
+  "box": 24,
+  "question": "What is torque?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/torqueclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/torqueclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From the steelyard in a Greek market to the torque figure on a car's spec sheet: how people learned that a push is worth more further from the pivot.\n\n250 BCE: The law of the lever\n1500: The 'potential lever'\n1687: Varignon's theorem\n1765: Torque makes things spin up\n1821: The Prony brake measures torque\n1852: The gyroscope gets its name\n\nThe full story, with 20 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/torqueclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/torqueclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #torque #momentofaforce #newtonmetre #lever #principleofmoments #centreofgravity #history",
+      "youtube": {
+        "title": "The history of torque in 45 seconds #shorts",
+        "description": "From the steelyard in a Greek market to the torque figure on a car's spec sheet: how people learned that a push is worth more further from the pivot.\n\n250 BCE · The law of the lever (Archimedes)\n1500 · The 'potential lever' (Leonardo da Vinci)\n1687 · Varignon's theorem (Pierre Varignon)\n1765 · Torque makes things spin up (Leonhard Euler)\n1821 · The Prony brake measures torque (Gaspard de Prony)\n1852 · The gyroscope gets its name (Léon Foucault)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/torqueclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/torqueclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "What is torque?\n\nTorque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.\n\n→ Torque is force times distance: push harder, or further from the nut, and it turns.\n→ The same push near a door’s hinge barely moves it. At the handle, it swings.\n→ A seesaw balances when the moments match: 40 kg at 1.5 m equals 30 kg at 2 m.\n→ Tilt a full double-decker past about 29° and its centre of gravity leaves the wheels: over it goes.\n→ Push down on a 17 cm crank and you make torque. A bigger rear cog multiplies it at the wheel.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/torqueclear (link in bio)\n\nBox No. L24 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #torque #momentofaforce #newtonmetre #lever #principleofmoments #centreofgravity #toppling #gears #crank",
+    "carousel": "Swipe through: What is torque?\n\nTorque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/torqueclear (link in bio).\n\nBox No. L24 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #torque #momentofaforce #newtonmetre #lever #principleofmoments #centreofgravity",
+    "youtube": {
+      "title": "What is torque? #shorts",
+      "description": "Torque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/torqueclear/\n⌘ Source code (MIT): https://github.com/bdeeps/torqueclear\n\nBox No. L24 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "What is torque? (interactive explainer)",
+      "description": "Torque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/torqueclear/\n⌘ Source code (MIT): https://github.com/bdeeps/torqueclear\n\nIn this video:\n• Force times distance. Torque is the turning effect of a force: τ = F × r, in newton-metres.\n• Balance. An object stays still when the clockwise and anticlockwise moments match: m₁d₁ = m₂d₂ on a seesaw.\n• Machines that turn. A 17 cm bicycle crank turns your push into torque, and the gears change it at the wheel.\n• Torque in your hands. When a job needs a set torque, a bigger radius means less force: steering wheels, fat screwdriver handles, nutcrackers and a pipe on a wheel brace.\n• Spin, wobble and myths. Unbalanced torque spins things up, τ = Iα.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "What is torque?\n\nTorque is what turns things: a push times its distance from the pivot.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/torqueclear/",
+    "linkedin": "What is torque?\n\nTorque is what turns things: a push times its distance from the pivot. Undo a stuck wheel nut, balance a seesaw, tip a double-decker bus, test an engine on a brake, crack a walnut, and watch a gyroscope refuse to fall.\n\n1. Force times distance\n2. Balance\n3. Machines that turn\n4. Torque in your hands\n5. Spin, wobble and myths\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. L24 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/torqueclear/\nCode: https://github.com/bdeeps/torqueclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-28T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-27T22:51:20.483Z"
+}

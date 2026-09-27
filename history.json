@@ -1,0 +1,599 @@
+{
+  "title": "The history of torque",
+  "tagline": "From the steelyard in a Greek market to the torque figure on a car's spec sheet: how people learned that a push is worth more further from the pivot.",
+  "intro": "People balanced loads on levers for thousands of years before Archimedes wrote down the rule. Leonardo saw that only the perpendicular distance counts, Varignon and Euler turned balance into a theory of rotation, and engineers learned to measure an engine's twist with a brake. In 1884 the twist got its own word: torque.",
+  "eras": [
+    {
+      "id": "lever",
+      "name": "Levers and balances",
+      "from": -400,
+      "to": 1260,
+      "color": "#c49bff",
+      "summary": "Traders weigh with steelyards, Archimedes proves the law of the lever, and medieval scholars ask how a weight's position changes its pull."
+    },
+    {
+      "id": "moment",
+      "name": "The moment of a force",
+      "from": 1490,
+      "to": 1810,
+      "color": "#ffb547",
+      "summary": "Leonardo, Stevin, Varignon, Newton, Euler and Poinsot turn the lever into a general theory of turning forces and spin."
+    },
+    {
+      "id": "measure",
+      "name": "Measured, named and made",
+      "from": 1817,
+      "to": 1940,
+      "color": "#8ef0ff",
+      "summary": "Brakes measure engine torque, gyroscopes show spin resisting torque, 'torque' gets its name, electric motors twist with magnetism, and wrenches click at the right torque."
+    },
+    {
+      "id": "today",
+      "name": "Torque today",
+      "from": 1960,
+      "to": 2026,
+      "color": "#5ce1a9",
+      "summary": "Newton-metres on every spec sheet, tilt tests for buses, and motors that give full torque from standstill."
+    }
+  ],
+  "events": [
+    {
+      "year": -400,
+      "date": "5th–4th century BCE",
+      "era": "lever",
+      "art": "scales",
+      "key": false,
+      "title": "The steelyard weighs with a lever",
+      "who": "Greek craftsmen; later Roman and Chinese makers",
+      "where": "Greece, Rome and China",
+      "country": "Greece",
+      "text": "A steelyard is a balance with unequal arms: a small sliding weight far from the pivot balances a heavy load hung close to it. Greek craftsmen used it before Archimedes explained it, and Roman and Chinese steelyards appeared independently around 200 BCE.",
+      "why": "Market traders were using torque balance long before anyone wrote the rule down.",
+      "box": "balance",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "year": -250,
+      "date": "c. 250 BCE",
+      "era": "lever",
+      "art": "scales",
+      "key": true,
+      "title": "The law of the lever",
+      "who": "Archimedes",
+      "where": "Syracuse, Sicily",
+      "country": "Italy",
+      "text": "In On the Equilibrium of Planes, Archimedes proved that weights balance on a lever when weight × distance from the pivot is the same on both sides. It is the principle of moments, the rule every seesaw obeys.",
+      "why": "The first exact law of torque, over 2,000 years before the word existed.",
+      "box": "balance",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "year": 340,
+      "date": "c. 340 CE",
+      "era": "lever",
+      "art": "scroll",
+      "key": false,
+      "title": "Give me a place to stand",
+      "who": "Pappus of Alexandria, quoting Archimedes",
+      "where": "Alexandria",
+      "country": "Egypt",
+      "text": "Pappus's Collection records the boast attributed to Archimedes: give me a place to stand and I will move the Earth. With a long enough lever arm, a small force makes any torque you like.",
+      "why": "The most famous line in physics is a statement about lever arms.",
+      "box": "idea",
+      "sources": [
+        20,
+        3
+      ]
+    },
+    {
+      "year": 1230,
+      "date": "early 13th century",
+      "era": "lever",
+      "art": "quill",
+      "key": false,
+      "title": "Weight depends on position",
+      "who": "Jordanus de Nemore",
+      "where": "Probably Paris",
+      "country": "France",
+      "text": "Jordanus described 'positional gravity': a weight pulls harder or softer on a lever depending on its position and the direction it can move. He proved the law of the lever from the idea of work and solved weights on slopes.",
+      "why": "He began turning Archimedes' balance into a theory of forces at angles.",
+      "box": "idea",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1500,
+      "date": "c. 1500",
+      "era": "moment",
+      "art": "quill",
+      "key": true,
+      "title": "The 'potential lever'",
+      "who": "Leonardo da Vinci",
+      "where": "Milan",
+      "country": "Italy",
+      "text": "In his notebooks Leonardo separated a lever's real arm from its 'potential' arm: the perpendicular from the pivot to the line of the force. Pull at a slant and only that shorter distance counts. Today we call it the lever arm, r sin θ.",
+      "why": "The key to torque for forces at an angle, though his notebooks stayed unpublished for centuries.",
+      "box": "idea",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 1586,
+      "date": "1586",
+      "era": "moment",
+      "art": "block",
+      "key": false,
+      "title": "The Art of Weighing",
+      "who": "Simon Stevin",
+      "where": "Leiden",
+      "country": "Netherlands",
+      "text": "Stevin's De Beghinselen der Weeghconst set out statics in Dutch: the lever, the centre of gravity, and his wreath of spheres draped over a double slope, which shows how forces combine.",
+      "why": "It gave engineers a clear method for balancing forces and turning effects.",
+      "box": "balance",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 1687,
+      "date": "1687",
+      "era": "moment",
+      "art": "quill",
+      "key": true,
+      "title": "Varignon's theorem",
+      "who": "Pierre Varignon",
+      "where": "Paris",
+      "country": "France",
+      "text": "In Projet d'une nouvelle mécanique, Varignon showed that the moment of a combined force about any point equals the sum of the moments of its parts. You can split a slanted push into pieces and add their torques.",
+      "why": "It made working out torques in real machines a matter of simple addition.",
+      "box": "idea",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "year": 1687,
+      "date": "1687",
+      "era": "moment",
+      "art": "earth",
+      "key": false,
+      "title": "Why Earth's axis wobbles",
+      "who": "Isaac Newton",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "In the Principia, Newton explained the slow drift of the equinoxes, first noticed by Hipparchus: the Sun and Moon pull on Earth's equatorial bulge, and that torque makes the spinning Earth's axis trace a circle every 26,000 years or so.",
+      "why": "The first explanation of precession: a torque turning a spin's direction, not its speed.",
+      "box": "limits",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1765,
+      "date": "1765",
+      "era": "moment",
+      "art": "atomspin",
+      "key": true,
+      "title": "Torque makes things spin up",
+      "who": "Leonhard Euler",
+      "where": "Berlin",
+      "country": "Germany",
+      "text": "In Theoria motus corporum solidorum seu rigidorum, Euler worked out how rigid bodies rotate. He named the moment of inertia and wrote the turning version of Newton's second law, which we now write τ = I α.",
+      "why": "It connected torque to spinning, not just balancing.",
+      "box": "limits",
+      "sources": [
+        10,
+        11
+      ]
+    },
+    {
+      "year": 1803,
+      "date": "1803",
+      "era": "moment",
+      "art": "quill",
+      "key": false,
+      "title": "Couples",
+      "who": "Louis Poinsot",
+      "where": "Paris",
+      "country": "France",
+      "text": "In Éléments de statique, Poinsot showed that any set of forces on a solid body can be replaced by one force plus a 'couple': two equal, opposite forces that twist without pushing, like two hands on a steering wheel.",
+      "why": "The couple is pure torque, and it made the maths of rotation far simpler.",
+      "box": "everyday",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1817,
+      "date": "1817",
+      "era": "measure",
+      "art": "orbit",
+      "key": false,
+      "title": "The first gyroscope",
+      "who": "Johann Bohnenberger",
+      "where": "Tübingen",
+      "country": "Germany",
+      "text": "Bohnenberger built a heavy spinning sphere in a set of rings, which he simply called 'the Machine'. However its frame was tipped, the spinning ball kept its axis steady.",
+      "why": "The first instrument built to show how spin resists torque.",
+      "box": "limits",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1821,
+      "date": "1821",
+      "era": "measure",
+      "art": "engine",
+      "key": true,
+      "title": "The Prony brake measures torque",
+      "who": "Gaspard de Prony",
+      "where": "Paris",
+      "country": "France",
+      "text": "Prony clamped a friction band round a drum on an engine's shaft and fixed a lever arm to it. The force on the scale at the arm's end, times the arm's length, gives the engine's torque.",
+      "why": "For the first time an engine's turning strength could be measured, not guessed.",
+      "box": "machines",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1852,
+      "date": "1852",
+      "era": "measure",
+      "art": "orbit",
+      "key": true,
+      "title": "The gyroscope gets its name",
+      "who": "Léon Foucault",
+      "where": "Paris",
+      "country": "France",
+      "text": "Foucault spun a heavy rotor in gimbals and watched its axis hold still while Earth turned beneath it, for the eight to ten minutes it kept spinning. He named it the gyroscope, from Greek words for 'turn' and 'watch'.",
+      "why": "Spin and torque became a tool to see Earth's own rotation.",
+      "box": "limits",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1884,
+      "date": "April 1884",
+      "era": "measure",
+      "art": "wrench",
+      "key": true,
+      "title": "The word 'torque'",
+      "who": "James Thomson",
+      "where": "Glasgow",
+      "country": "Scotland",
+      "text": "James Thomson, an engineer and the elder brother of Lord Kelvin, used 'torque' in print in 1884, from the Latin torquere, to twist. Silvanus Thompson took it up the same year in his book on dynamos.",
+      "why": "Engineers finally had a short word for a twisting force.",
+      "box": "idea",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1888,
+      "date": "1885–1888",
+      "era": "measure",
+      "art": "motor",
+      "key": true,
+      "title": "Motors that twist with magnetism",
+      "who": "Galileo Ferraris and Nikola Tesla",
+      "where": "Turin and New York",
+      "country": "Italy",
+      "text": "Ferraris demonstrated a rotating-field motor in 1885 and Tesla, working independently, was granted his induction motor patents in May 1888. A rotating magnetic field drags the rotor round with a steady torque, as in a ceiling fan today.",
+      "why": "Electric torque began to replace belts and steam in factories and homes.",
+      "box": "machines",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1904,
+      "date": "1904",
+      "era": "measure",
+      "art": "compass",
+      "key": false,
+      "title": "The gyrocompass",
+      "who": "Hermann Anschütz-Kaempfe",
+      "where": "Kiel",
+      "country": "Germany",
+      "text": "Anschütz-Kaempfe patented a gyrocompass: a fast-spinning rotor that the torque from Earth's rotation turns until it points true north. Elmer Sperry built a rival design in the United States soon after.",
+      "why": "Precession became a way to steer ships without a magnetic compass.",
+      "box": "limits",
+      "sources": [
+        14,
+        21
+      ]
+    },
+    {
+      "year": 1918,
+      "date": "1918 (claimed)",
+      "era": "measure",
+      "art": "wrench",
+      "key": false,
+      "title": "The torque wrench",
+      "who": "Conrad Bahr",
+      "where": "New York",
+      "country": "United States",
+      "text": "Conrad Bahr of the New York City Water Department said he made the first torque-limiting wrench in 1918, so water-main bolts would not be over-tightened. He and George Pfefferle patented a ratcheting torque wrench that signals the set torque in 1935.",
+      "why": "Bolts could be tightened to exactly the right torque, not by feel.",
+      "box": "everyday",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1938,
+      "date": "1938",
+      "era": "measure",
+      "art": "wrench",
+      "key": false,
+      "title": "Torque wrenches go on sale",
+      "who": "Paul Allen Sturtevant",
+      "where": "United States",
+      "country": "United States",
+      "text": "Sturtevant, licensed to make a beam-type torque wrench designed at Chrysler, patented his own and became the first person to sell torque wrenches. Car makers began printing a torque for every important bolt.",
+      "why": "Tightening torque became part of every workshop manual.",
+      "box": "everyday",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1960,
+      "date": "1960 onward",
+      "era": "today",
+      "art": "scales",
+      "key": false,
+      "title": "Newton-metres, not joules",
+      "who": "General Conference on Weights and Measures",
+      "where": "Sèvres",
+      "country": "France",
+      "text": "The International System of Units, adopted in 1960, measures torque in newton-metres. The SI Brochure keeps the joule for energy only, even though both are a newton times a metre.",
+      "why": "One unit, two meanings: the rule stops torque being mistaken for energy.",
+      "box": "limits",
+      "sources": [
+        17,
+        0
+      ]
+    },
+    {
+      "year": 2026,
+      "date": "Today",
+      "era": "today",
+      "art": "car",
+      "key": false,
+      "title": "Torque everywhere",
+      "who": "Engineers worldwide",
+      "where": "Worldwide",
+      "country": "Worldwide",
+      "text": "Double-decker buses must lean to 28° on a tilt table without rolling over. Car specs list torque beside power, electric motors give full torque from standstill, and e-bikes measure your pedal torque to decide how much to help.",
+      "why": "From seesaws to scooters, balancing and making torque is everyday engineering.",
+      "box": "balance",
+      "sources": [
+        18,
+        0
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Law of the lever proved",
+      "value": "c. 250 BCE",
+      "who": "Archimedes, Syracuse"
+    },
+    {
+      "label": "Perpendicular lever arm described",
+      "value": "c. 1500",
+      "who": "Leonardo da Vinci, Milan"
+    },
+    {
+      "label": "Moments of combined forces add up",
+      "value": "1687",
+      "who": "Pierre Varignon, Paris"
+    },
+    {
+      "label": "Engine torque measured with a brake",
+      "value": "1821",
+      "who": "Gaspard de Prony, Paris"
+    },
+    {
+      "label": "The word 'torque' in print",
+      "value": "1884",
+      "who": "James Thomson, Glasgow"
+    },
+    {
+      "label": "Torque wrench sold",
+      "value": "1938",
+      "who": "Paul Allen Sturtevant, United States"
+    }
+  ],
+  "people": [
+    {
+      "name": "Archimedes",
+      "life": "c. 287 – c. 212 BCE",
+      "role": "Mathematician and engineer",
+      "from": "Syracuse, Sicily",
+      "note": "Proved the law of the lever."
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "life": "1452 – 1519",
+      "role": "Artist and engineer",
+      "from": "Vinci, Italy",
+      "note": "Saw that only the perpendicular 'potential lever' counts."
+    },
+    {
+      "name": "Simon Stevin",
+      "life": "1548 – 1620",
+      "role": "Engineer and mathematician",
+      "from": "Bruges, Flanders",
+      "note": "Wrote the Art of Weighing on levers and centres of gravity."
+    },
+    {
+      "name": "Pierre Varignon",
+      "life": "1654 – 1722",
+      "role": "Mathematician",
+      "from": "Caen, France",
+      "note": "Showed that moments of forces simply add."
+    },
+    {
+      "name": "Leonhard Euler",
+      "life": "1707 – 1783",
+      "role": "Mathematician",
+      "from": "Basel, Switzerland",
+      "note": "Named the moment of inertia and wrote the laws of rotation."
+    },
+    {
+      "name": "Gaspard de Prony",
+      "life": "1755 – 1839",
+      "role": "Engineer",
+      "from": "Chamelet, France",
+      "note": "Invented the brake that measures engine torque."
+    },
+    {
+      "name": "Léon Foucault",
+      "life": "1819 – 1868",
+      "role": "Physicist",
+      "from": "Paris, France",
+      "note": "Named the gyroscope and used it to show Earth's rotation."
+    },
+    {
+      "name": "James Thomson",
+      "life": "1822 – 1892",
+      "role": "Engineer",
+      "from": "Belfast, Ireland",
+      "note": "Gave torque its name in 1884."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "Torque and energy are both a newton times a metre, but only energy is ever written in joules.",
+    "Philippe Petit crossed between the Twin Towers in 1974 with a balancing pole about 8 m long and weighing about 25 kg.",
+    "A double-decker bus, fully loaded upstairs, must lean to 28° on a tilt table without rolling over.",
+    "Your biceps pulls about eight to nine times the weight in your hand, because it attaches only about 4.5 cm from the elbow.",
+    "'Torque' comes from the Latin torquere, to twist, the same root as 'torture' and 'contortion'."
+  ],
+  "sources": [
+    {
+      "title": "Torque",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Torque"
+    },
+    {
+      "title": "Lever",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lever"
+    },
+    {
+      "title": "Steelyard balance",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steelyard_balance"
+    },
+    {
+      "title": "Archimedes",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Archimedes"
+    },
+    {
+      "title": "Jordanus de Nemore",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jordanus_de_Nemore"
+    },
+    {
+      "title": "The Origins of Statics, chapter 2 (Pierre Duhem, translated)",
+      "publisher": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Translation:The_Origins_of_Statics/Chapter_2"
+    },
+    {
+      "title": "Simon Stevin",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Simon-Stevin"
+    },
+    {
+      "title": "De Beghinselen der Weeghconst",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De_Beghinselen_Der_Weeghconst"
+    },
+    {
+      "title": "Varignon's theorem (mechanics)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Varignon%27s_theorem_(mechanics)"
+    },
+    {
+      "title": "Axial precession",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Axial_precession"
+    },
+    {
+      "title": "Theoria motus corporum solidorum seu rigidorum (E289)",
+      "publisher": "Euler Archive, University of the Pacific",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/289/"
+    },
+    {
+      "title": "Moment of inertia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moment_of_inertia"
+    },
+    {
+      "title": "Louis Poinsot",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_Poinsot"
+    },
+    {
+      "title": "Prony brake",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prony_brake"
+    },
+    {
+      "title": "Gyroscope",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gyroscope"
+    },
+    {
+      "title": "Induction motor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Induction_motor"
+    },
+    {
+      "title": "Torque wrench",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Torque_wrench"
+    },
+    {
+      "title": "The International System of Units (SI Brochure), 9th edition",
+      "publisher": "BIPM",
+      "url": "https://www.bipm.org/en/publications/si-brochure"
+    },
+    {
+      "title": "Tilt test (vehicle safety test)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tilt_test_(vehicle_safety_test)"
+    },
+    {
+      "title": "Philippe Petit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philippe_Petit"
+    },
+    {
+      "title": "Pappus of Alexandria",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Pappus-of-Alexandria"
+    },
+    {
+      "title": "Gyrocompass",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gyrocompass"
+    }
+  ]
+}
